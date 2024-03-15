@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: linear-gradient(90deg,#2e70d3,white);		
+    height: 100vh;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    /* position: relative; */
+    /* left: 50%; */
+
+}
+
+#intro{
+    height: 100vh;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+    text-align: center;
+}
+
+#sitename{
+    font-size: 5rem;
+    text-shadow: 13px 8px #0088cc;
+    /* animation: glitch linear 0.3s; */
+    animation-iteration-count: infinite;
+}
+
+/* @keyframes glitch{
+    from{text-shadow: -12px 5px rgb(175, 33, 64);}
+    to{text-shadow: 8px -14px rgb(29, 59, 194);}
+
+} */
+
+#form{
+    /* background: radial-gradient(circle at 100% 50%, transparent 50%,#2e70d3 ) 0px 10% no-repeat; */
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    border-radius: 50%;
+    width: 70%;
+    height: 90%;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    left: 60vw;
+    box-shadow: 10px 5px 34px;
+}
+
+div form > *{
+    border: 1px solid green;
+    display: block;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 30vh;
+    position: relative;
+    left: 10vw;
+}
+
+#showpass{
+    padding: 0px;
+    border: none;
+}
+
+#toogle{
+    margin-right: 6px ;
+}
+
+
+#login,#signup{
+    display: inline-block;
+    margin: 0px 30px;
+    width: 30%;
+    color: white;
+    background-color: #0088cc ;
+    font-weight: bold;
+}
+
+div input:hover{
+    box-shadow: 1px 2px 8px ;
+}
+
+#login:hover,#signup:hover{
+    box-shadow: 1px 2px 14px rgb(42, 116, 226);
+}

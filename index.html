@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shob E Maya</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="intro">
+        <h1 id="sitename"> Shob E Maya</h1>
+        <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur, enim eos quidem voluptates natus incidunt. Numquam iste consectetur fugiat ratione rerum maxime, hic natus eligendi, officiis vitae totam atque nihil!</p>
+    </div>
+    <div id="form">
+        <form action="dashboard.html" method="get" id="details">
+            <input type="email" name="e_field" id="email" placeholder="Email Or Phone" autocomplete="on" required>
+            <input type="password" name="p_field" id="password" placeholder="Password" required> 
+            <div id="showpass"><input type="checkbox" name="" id="toogle" onclick="showhide()">Show Password</div>
+            <input type="submit" value="Log in" id="login" onclick="loginnow()">
+            <input type="button" value="Sign Up" id="signup" onclick='window.location.href = "create.html"'>
+        </form>
+    </div>
+
+    <script>
+        var x = document.getElementById("toogle");
+        var y = document.getElementById("password")
+
+        function showhide(){
+
+            if(x.checked)
+                y.type = "text";
+            else
+                y.type = "password"
+            }
+
+        function loginnow(){
+            // window.location.href = "dashboard.html";
+            
+        }
+        
+        document.getElementById("password").addEventListener("click",showhide());
+        document.getElementById("details").reset();
+
+
+    </script>
+    
+</body>
+</html>

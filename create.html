@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Creation</title>
+    <link rel="stylesheet" href="createStyle.css">
+</head>
+<body>
+    <h1> Create Account </h1>
+
+    <div>
+        <form action="" method="" id="details">
+            <input type="text" id="fname" placeholder="First Name" autocomplete="on" required>
+            <input type="text" id="lname" placeholder="Last Name" autocomplete="on" required>
+            <input type="text" id="uname" placeholder="User Name" autocomplete="on" required>
+            <input type="email" id="email" placeholder="Email" autocomplete="on" required>
+            <input type="tel" id="phone" placeholder="Phone" autocomplete="on" required>
+            <input type="password" id="pass" placeholder="Password" autocomplete="off" required>
+            <input type="password" id="repass" placeholder="Retype Password" autocomplete="off" required>
+            <input type="button" value="Sign Up" id="signup">
+            <input type="button" value="Cancel" id="cancel" onclick="window.history.back() ">
+        </form>
+    </div>
+
+    <script>
+        // document.getElementById("details").reset();
+    </script>
+</body>
+</html>
