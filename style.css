@@ -8,8 +8,6 @@ body{
     height: 100vh;
     display: flex;
     align-items: center;
-    overflow: hidden;
-
 }
 
 #intro{
@@ -24,22 +22,24 @@ body{
 }
 
 #sitename{
-    font-size: 5rem;
+    font-size: 6vh;
     text-shadow: 13px 8px #0088cc;
 }
 
 
 #form{
-    /* background: radial-gradient(circle at 100% 50%, transparent 50%,#2e70d3 ) 0px 10% no-repeat; */
     display: flex;
     align-items: center;
+    justify-content: center;
     border-radius: 50%;
-    width: 70%;
-    height: 80%;
+    /* max-width: 100vw;
+    max-height: 100vw;
+    height: 100vh;
+    width: 70vw;
     background-color: rgb(255, 255, 255);
-    position: absolute;
-    left: 60%;
     box-shadow: 10px 5px 34px;
+    background: none; 
+    border: 1px solid red; */
 }
 
 div form > *{
@@ -48,9 +48,7 @@ div form > *{
     padding: 10px;
     margin: 10px;
     border-radius: 10px;
-    width: 90%;
-    position: relative;
-    left: 60%;
+    width: 85%;
 }
 
 #showpass{

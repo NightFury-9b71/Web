@@ -6,7 +6,6 @@
 body{
     display: flex;
     align-items: center;
-    justify-content: center;
 }
 
 #menu{
@@ -15,12 +14,11 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
 }
 
 #menu > *{
-    padding: 10px;
-    margin : 5px;
+    padding: 2%;
+    margin : 1%;
     background: none;
     border: none;
     font-family: "Waiting for the Sunrise", cursive;
@@ -33,13 +31,12 @@ body{
     color: white;
     font-weight: bold;
     box-shadow: 1px 2px 24px rgb(54, 106, 202);
-    font-size: xx-large;
+    font-size: x-large;
 }
 
 #details{
     height: 100vh;
-    min-height: 700px;
-    width: 100%;
+    width: 80%;
     background: linear-gradient(90deg,white,#0088cc);
     display: flex;
     flex-direction: column;
@@ -49,23 +46,20 @@ body{
 
 h1{
     text-align: center;
-    margin-top: 10%;
-    font-size: 5rem;
+    font-size: 5vw;
     text-shadow: 3px 3px #0088cc;
     font-family: "Waiting for the Sunrise", cursive;
-    overflow: hidden;
     animation: rad 3s linear infinite,glow 0.6s ease-in-out infinite alternate,glowt 0.5s ease-in-out infinite alternate;
-    margin: 10vh auto 0;
-    white-space: nowrap;
     box-shadow: 2px 2px 34px rgb(212, 203, 69);
     border-radius: 50%;
-    /* border: 1px solid rgb(230, 18, 18); */
-    /* position: absolute; */
+    white-space: nowrap;
 }
 
 #maya{
     animation: up-down 3s linear infinite;
     position: relative;
+    max-width: 50vw;
+    max-height: 50vw;
 }
 
 @keyframes up-down{
@@ -76,13 +70,13 @@ h1{
     100% {top:0px}
   }
 
-@keyframes typing{
+/* @keyframes typing{
     0%{width: 0%;}
     20%{width: 30%;}
     50%{width: 70%;}
     80%{width: 30%;}
     100%{width: 0%;}
-}
+} */
 
 @keyframes rad{
     0%{padding: 0px 0px;}
@@ -91,6 +85,7 @@ h1{
    80%{padding: 0px 30px;}
   100%{padding: 0px 0px;}
 }
+
 @keyframes glow{
     from{
         box-shadow: 13px 8px 10px #0088cc,13px 8px 20px #0088cc,13px 8px 30px #0088cc;
