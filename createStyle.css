@@ -5,6 +5,8 @@
 
 body{
     background: linear-gradient(90deg,rgb(89, 118, 199),rgb(105, 200, 212));
+    height: 100vh;
+    overflow: hidden;
 }
 
 h1{
