@@ -23,6 +23,8 @@ body{
     border: none;
     font-family: "Waiting for the Sunrise", cursive;
     font-size: large;
+    width: 80%;
+
 }
 
 #menu > *:hover{
