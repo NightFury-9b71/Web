@@ -1,7 +1,7 @@
 
 <div align="center">
 
-![Jessore_University_of_Science_&_Technology_logo.jpg](Jessore_University_of_Science_&_Technology_logo.jpg)
+![JUST_LOGO](Jessore_University_of_Science_&_Technology_logo.jpg)
 
 </div>
 
